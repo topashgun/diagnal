@@ -76,7 +76,7 @@ export default class Body extends Component {
 
     componentDidMount() {
         this.getPageContent();
-        document.getElementById('container').style.height = (window.innerHeight - 228) + "px";
+        document.getElementById('container').style.height = (window.innerHeight - 192) + "px";
     }
 
     componentDidUpdate() {
